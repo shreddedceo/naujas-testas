@@ -1,6 +1,6 @@
-@font-face { font-family: Road_Rage; src: url('./fonts/Road_Rage.otf'); }
+@font-face { font-family: Road_Rage; src: url('/fonts/Road_Rage.otf'); }
 
-@font-face { font-family: Another_Danger; src: url('./fonts/Another_Danger.otf'); }
+@font-face { font-family: Another_Danger; src: url('/fonts/Another_Danger.otf'); }
 
 
 * {
@@ -34,7 +34,7 @@ p {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: url(./images/slava-flag-background.jpg);
+    background: url(/images/slava-flag-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -115,7 +115,7 @@ p {
     max-width: 100%;
     width: 100vw;
     height: 80px;
-    background-image: url(./images/black-bottom.png);
+    background-image: url(/images/black-bottom.png);
     background-repeat: no-repeat;
     position: absolute;
     bottom: 0px;
